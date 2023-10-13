@@ -13,7 +13,7 @@ namespace Tragamonedas_pokemon
     public partial class Tragamonedas : Form
     {
 
-        private List<int> seleccion = new List<int>();
+        private List<string> seleccion = new List<string>();
         private List<PictureBox> imagenes = new List<PictureBox>();
         private Random r = new Random();
         private int ultimo;
@@ -41,60 +41,60 @@ namespace Tragamonedas_pokemon
 
         private void picture_cereza_Click(object sender, EventArgs e)
         {
-            seleccion_fruta(0, picture_cereza);
+            seleccion_fruta("cereza", picture_cereza);
         }
 
         private void picture_manzana_Click(object sender, EventArgs e)
         {
-            seleccion_fruta(1, picture_manzana);
+            seleccion_fruta("manzana", picture_manzana);
         }
 
         private void picture_naranja_Click(object sender, EventArgs e)
         {
-            seleccion_fruta(2, picture_naranja);
+            seleccion_fruta("naranja", picture_naranja);
         }
 
         private void picture_campana_Click(object sender, EventArgs e)
         {
-            seleccion_fruta(3, picture_campana);
+            seleccion_fruta("campana", picture_campana);
         }
 
         private void picture_melon_Click(object sender, EventArgs e)
         {
-            seleccion_fruta(4, picture_melon);
+            seleccion_fruta("melon", picture_melon);
         }
 
         private void picture_estrella_Click(object sender, EventArgs e)
         {
-            seleccion_fruta(5, picture_estrella);
+            seleccion_fruta("estrella", picture_estrella);
         }
 
         private void picture_sandia_Click(object sender, EventArgs e)
         {
-            seleccion_fruta(6, picture_sandia);
+            seleccion_fruta("sandia", picture_sandia);
         }
 
         private void picture_777_Click(object sender, EventArgs e)
         {
-            seleccion_fruta(7, picture_777);
+            seleccion_fruta("777", picture_777);
         }
 
         private void picture_bar_Click(object sender, EventArgs e)
         {
-            seleccion_fruta(8, picture_bar);
+            seleccion_fruta("bar", picture_bar);
         }
 
 
-        private void seleccion_fruta(int pos, PictureBox pictureBox)
+        private void seleccion_fruta(string nombre, PictureBox pictureBox)
         {
-            if (seleccion.Contains(pos))
+            if (seleccion.Contains(nombre))
             {
-                seleccion.Remove(pos);
+                seleccion.Remove(nombre);
                 pictureBox.BackColor = SystemColors.ButtonHighlight;
             }
             else if (seleccion.Count != 2)
             {
-                seleccion.Add(pos);
+                seleccion.Add(nombre);
                 pictureBox.BackColor = SystemColors.GrayText;
 
             }
@@ -102,6 +102,8 @@ namespace Tragamonedas_pokemon
 
         private void timer_Tick(object sender, EventArgs e)
         {
+
+
 
             imagenes[ultimo].BackColor = SystemColors.ButtonHighlight;
 
@@ -133,13 +135,17 @@ namespace Tragamonedas_pokemon
                     timer.Stop();
                     vueltas = 0;
                     timer.Interval = 40;
-
-                    if (seleccion.Contains(ganador))
-                    {
-                        MessageBox.Show("GANASTE");
-                    }
-
                     BTN_JUGAR.Enabled = true;
+                    
+                    if (seleccion.Contains(imagenes[ganador].Tag))
+                    {
+
+                        imagenes[ganador].BackColor = SystemColors.Highlight;
+
+                        Notificacion noti = new Notificacion(true);
+                        noti.ShowDialog();
+
+                    }
 
                 }
 
@@ -157,6 +163,8 @@ namespace Tragamonedas_pokemon
                 BTN_JUGAR.Enabled = false;
                 ganador = r.Next(0, 23);
                 timer.Start();
+
+
             }
             else
             {

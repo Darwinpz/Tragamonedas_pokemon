@@ -204,6 +204,7 @@
             this.picture_11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picture_11.TabIndex = 4;
             this.picture_11.TabStop = false;
+            this.picture_11.Tag = "cereza";
             // 
             // picture_10
             // 
@@ -215,6 +216,7 @@
             this.picture_10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picture_10.TabIndex = 3;
             this.picture_10.TabStop = false;
+            this.picture_10.Tag = "manzana";
             // 
             // picture_9
             // 
@@ -226,6 +228,7 @@
             this.picture_9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picture_9.TabIndex = 2;
             this.picture_9.TabStop = false;
+            this.picture_9.Tag = "pikachu";
             // 
             // picture_8
             // 
@@ -237,6 +240,7 @@
             this.picture_8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picture_8.TabIndex = 1;
             this.picture_8.TabStop = false;
+            this.picture_8.Tag = "cereza";
             // 
             // picture_7
             // 
@@ -248,6 +252,7 @@
             this.picture_7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picture_7.TabIndex = 0;
             this.picture_7.TabStop = false;
+            this.picture_7.Tag = "sandia";
             // 
             // tableLayoutPanel9
             // 
@@ -273,6 +278,7 @@
             this.picture_12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picture_12.TabIndex = 1;
             this.picture_12.TabStop = false;
+            this.picture_12.Tag = "naranja";
             // 
             // tableLayoutPanel8
             // 
@@ -298,6 +304,7 @@
             this.picture_18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picture_18.TabIndex = 1;
             this.picture_18.TabStop = false;
+            this.picture_18.Tag = "melon";
             // 
             // tableLayoutPanel7
             // 
@@ -323,6 +330,7 @@
             this.picture_6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picture_6.TabIndex = 1;
             this.picture_6.TabStop = false;
+            this.picture_6.Tag = "melon";
             // 
             // tableLayoutPanel6
             // 
@@ -349,6 +357,7 @@
             this.picture_0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picture_0.TabIndex = 1;
             this.picture_0.TabStop = false;
+            this.picture_0.Tag = "naranja";
             // 
             // tableLayoutPanel5
             // 
@@ -382,6 +391,7 @@
             this.picture_14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picture_14.TabIndex = 5;
             this.picture_14.TabStop = false;
+            this.picture_14.Tag = "cereza";
             // 
             // picture_13
             // 
@@ -393,6 +403,7 @@
             this.picture_13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picture_13.TabIndex = 4;
             this.picture_13.TabStop = false;
+            this.picture_13.Tag = "campana";
             // 
             // picture_15
             // 
@@ -404,6 +415,7 @@
             this.picture_15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picture_15.TabIndex = 3;
             this.picture_15.TabStop = false;
+            this.picture_15.Tag = "777";
             // 
             // picture_17
             // 
@@ -415,6 +427,7 @@
             this.picture_17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picture_17.TabIndex = 2;
             this.picture_17.TabStop = false;
+            this.picture_17.Tag = "cereza";
             // 
             // picture_16
             // 
@@ -426,6 +439,7 @@
             this.picture_16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picture_16.TabIndex = 1;
             this.picture_16.TabStop = false;
+            this.picture_16.Tag = "manzana";
             // 
             // Imagen
             // 
@@ -471,6 +485,7 @@
             this.picture_4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picture_4.TabIndex = 5;
             this.picture_4.TabStop = false;
+            this.picture_4.Tag = "manzana";
             // 
             // picture_5
             // 
@@ -482,6 +497,7 @@
             this.picture_5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picture_5.TabIndex = 4;
             this.picture_5.TabStop = false;
+            this.picture_5.Tag = "cereza";
             // 
             // picture_3
             // 
@@ -493,6 +509,7 @@
             this.picture_3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picture_3.TabIndex = 3;
             this.picture_3.TabStop = false;
+            this.picture_3.Tag = "bar";
             // 
             // picture_1
             // 
@@ -504,6 +521,7 @@
             this.picture_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picture_1.TabIndex = 2;
             this.picture_1.TabStop = false;
+            this.picture_1.Tag = "campana";
             // 
             // picture_2
             // 
@@ -515,6 +533,7 @@
             this.picture_2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picture_2.TabIndex = 1;
             this.picture_2.TabStop = false;
+            this.picture_2.Tag = "bar";
             // 
             // tableLayoutPanel4
             // 
@@ -548,6 +567,7 @@
             this.picture_19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picture_19.TabIndex = 4;
             this.picture_19.TabStop = false;
+            this.picture_19.Tag = "estrella";
             // 
             // picture_20
             // 
@@ -559,6 +579,7 @@
             this.picture_20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picture_20.TabIndex = 3;
             this.picture_20.TabStop = false;
+            this.picture_20.Tag = "cereza";
             // 
             // picture_21
             // 
@@ -570,6 +591,7 @@
             this.picture_21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picture_21.TabIndex = 2;
             this.picture_21.TabStop = false;
+            this.picture_21.Tag = "pikachu";
             // 
             // picture_22
             // 
@@ -581,6 +603,7 @@
             this.picture_22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picture_22.TabIndex = 1;
             this.picture_22.TabStop = false;
+            this.picture_22.Tag = "manzana";
             // 
             // picture_23
             // 
@@ -592,6 +615,7 @@
             this.picture_23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picture_23.TabIndex = 0;
             this.picture_23.TabStop = false;
+            this.picture_23.Tag = "cereza";
             // 
             // tableLayoutPanel10
             // 

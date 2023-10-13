@@ -113,6 +113,16 @@ namespace Tragamonedas_pokemon.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ganaste {
+            get {
+                object obj = ResourceManager.GetObject("ganaste", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap imagen_777 {
             get {
                 object obj = ResourceManager.GetObject("imagen_777", resourceCulture);
